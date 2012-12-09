@@ -1,0 +1,59 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="5dp"
+    android:background="#000"
+    tools:context=".ContactView" >
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+    	android:layout_margin="40dp" >
+        
+        <TextView
+	        android:id="@+id/contactview_name"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:textColor="#fff"
+	        android:textSize="25dp"
+	        android:layout_margin="5dp"
+	        android:text="Hello Name" />
+	    
+	    <TextView
+	        android:id="@+id/contactview_num"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:textColor="#fff"
+	        android:textSize="15dp"
+	        android:layout_margin="5dp"
+	        android:text="Hello Number" />
+        
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:layout_gravity="right" >"
+        
+        <Button
+	        android:id="@+id/edit_button"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_margin="3dp"
+	        android:text="Edit" />
+	    <Button
+	        android:id="@+id/delete_button"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_margin="3dp"
+	        android:text="Delete" />
+        
+    </LinearLayout>
+    
+    
+
+</LinearLayout>
